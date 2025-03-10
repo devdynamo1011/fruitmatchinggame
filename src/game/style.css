@@ -1,0 +1,40 @@
+/* styles.css */
+
+.game-container {
+    overflow: hidden;
+    margin: 0;
+}
+
+.header {
+    position: absolute;
+    width: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.header h2 {
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+    background-image: linear-gradient(#f6af54, #fc8233);
+    border-bottom: 2px solid #cc854c;
+    box-shadow: 0px 2px 6px 1px #cc854c;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f9db1d;
+    -webkit-text-stroke: 1px black;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: red;
+}
